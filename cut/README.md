@@ -3,11 +3,14 @@
   - `delim` is a delimiter that separates fields
   - `list` consists of one of N, N-M, N-
 
+**Used to extract substrings from a string**
+
 ## Options
 - `-b`: extracts using range of bytes
 - `-c`: extracts using range of characters
 - `-d`: especifies a delimiter (tab by default)
 - `-f`: especifies a range of fields separated by a delimiter
+  - The `-f` flag takes 1-based indices, rather than the 0-based indices a programmer would be used to. 
 - `-s`: supressses line if delimiter is not found
 
 ## Examples
