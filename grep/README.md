@@ -13,6 +13,7 @@ grep <string> [file]
 - `grep -v` - inverts the match
 - `grep -o` - shows only the matched substring
 - `grep -n` - displays the line number
+- `grep -r {{something}} .` - search recursively(sub directories as well) in current directory for an exact string:
 
 ## Examples
 - `grep password file`
@@ -33,3 +34,7 @@ When have I used grep recently?
 - `grep -v # bashscript`
 
 Prints all noncommented lines
+
+- `grep -r --include="*.c" "search-pattern" .`
+ 
+recursively search a pattern in all the .c files 
