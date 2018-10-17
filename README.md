@@ -4,7 +4,7 @@
 
 ## Topics
 
-* [x] Shortcuts keys, history, aliasing, character expansion, and file compression.
+* [x] [Shortcuts keys](Lecture-1/Shortcut_Keys.md), [history](Lecture-1/Reusing_History.md), [aliasing](Lecture-1/Aliases.md), [character expansion](Lecture-1/Shell_Expansion.md), and [file compression](Lecture-1/Compression_and_Archiving.md).
 * [x] wc, sort, uniq, tr, pipes and redirection, tee, backticks
 * [x] cut, paste, split, join, bc, find, grep
 * [ ] ssh, scp, processes: nice, kill, top; jobs.
