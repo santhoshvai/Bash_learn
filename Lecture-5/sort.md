@@ -21,7 +21,9 @@ $ sort numbers.txt
 5
 62
 8
+```
 
+```
 $ sort numbers.txt -n
 1
 5
